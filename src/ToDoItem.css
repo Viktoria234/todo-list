@@ -1,0 +1,55 @@
+.task{
+    min-width: 750px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 1px solid rgb(141, 141, 141);
+    padding: 0 20px 0 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.task > p {
+    padding: 0 10px;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.not-done{
+    text-decoration: none;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons > button{
+    border: 0;
+    background-color: transparent;
+}
+
+.bi-check-all, .bi-check, .bi-trash3-fill{
+    cursor: pointer;
+}
+
+.bi-check-all:hover{
+    transition: 0.3s ease-in-out;
+    fill: rgb(0, 79, 0);
+    
+}
+
+.bi-check:hover{
+    fill: rgb(0, 107, 0);
+}
+
+.bi-trash3-fill:hover{
+    fill: rgb(144, 0, 0);
+
+}

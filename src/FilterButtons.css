@@ -1,0 +1,24 @@
+.filter-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    overflow-x: hidden;
+}
+
+.filter-buttons > button{
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(210, 210, 210);
+    cursor: pointer;
+    font-size: 19px;
+    margin: 0 5px;
+    padding: 2px 20px;
+    color: rgb(0, 0, 0);
+    box-shadow: -1px 15px 16px -17px rgba(75, 92, 105, 0.23);
+}
+
+.filter-buttons > button:hover{
+    color: rgb(141, 141, 141);
+    transition: 0.3s ease-in-out;
+}

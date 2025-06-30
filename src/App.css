@@ -1,0 +1,29 @@
+.App{
+    text-align: center;
+    overflow-x: hidden;
+    height: 100vh;
+    
+}
+
+.todo-list{
+    padding: 40px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+
+
+.tasks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0 60px 0;
+}
+
+.count{
+    text-decoration:underline;
+}
+

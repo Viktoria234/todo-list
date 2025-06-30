@@ -1,0 +1,42 @@
+.todo-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgb(218, 218, 218);
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: 25px 0 70px 0;
+    box-shadow: -1px 15px 16px -7px rgba(75, 92, 105, 0.23);
+}
+
+.todo-form > h2{
+    padding-bottom: 35px ;
+}
+
+form{
+    margin-bottom: 12px;
+}
+
+form > input {
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid rgb(117, 117, 117);
+}
+
+form > button{
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: rgb(218, 218, 218);
+    border-radius: 5px;
+}
+
+form > button:hover{
+    background-color: rgb(149, 149, 149);
+    color: white;
+    transition: 0.4s ease-in-out;
+}
